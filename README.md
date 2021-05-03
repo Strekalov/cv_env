@@ -72,7 +72,10 @@ source /usr/local/bin/virtualenvwrapper.sh
 mkvirtualenv cv -p python3.8
 workon cv
 ```
-
+Устанавливаем numpy
+```bash
+pip install numpy
+```
 Все дальнейшие действия должны выполняться в активированной виртуальной среде!
 
 ## 3. Установка Cuda 11.1
@@ -184,10 +187,6 @@ cd onnxruntime
  ```
 
 ## 9. Сборка opencv
-Устанавливаем numpy
-```bash
-pip install numpy
-```
 
 Задаём переменную окружения с версией Opencv
 
