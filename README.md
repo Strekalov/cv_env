@@ -125,7 +125,7 @@ cd TensorRT-7.2.3.4
 cd python
 pip install tensorrt-7.2.3.4-cp38-none-linux_x86_64.whl
 cd ../uff
-pip install uff-0.6.9-py2.py3-none-any.wh
+pip install uff-0.6.9-py2.py3-none-any.whl
 cd ../graphsurgeon/
 pip install graphsurgeon-0.4.5-py2.py3-none-any.whl
 cd ../onnx_graphsurgeon
