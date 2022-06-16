@@ -16,7 +16,6 @@ sudo apt update -y; apt install -y \
         python3.8-dev \
         python3.8-distutils \
         build-essential \
-        cmake \
         unzip \
         pkg-config \
         libtbb-dev \
